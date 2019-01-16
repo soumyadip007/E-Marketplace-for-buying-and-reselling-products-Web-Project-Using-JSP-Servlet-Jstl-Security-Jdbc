@@ -24,7 +24,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <link href='//fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!--//fonts-->	
-<!-- js -->
+<!-- js sd-->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <!-- js -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
