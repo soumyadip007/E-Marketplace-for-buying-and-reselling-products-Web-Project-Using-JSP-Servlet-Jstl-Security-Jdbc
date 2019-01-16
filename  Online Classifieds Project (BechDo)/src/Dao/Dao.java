@@ -68,16 +68,14 @@ public class Dao {
 			return 0;	
 		}
 		
-		public boolean post(String type,String title,String brand,String price,String summary,String cond,String Name,String Email,String num,String city) 
+		public boolean post(String type,String title,String brand,String price,String summary,String cond,String Name,String Email,String num,String city,String imgpath) 
 		{
 			try{
 				Connection con=MyCon.dbcon();
-				PreparedStatement st=con.prepareStatement("INSERT INTO product(type, title, brand, price, summary,cond,Name,Email,num,city) VALUES(?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement st=con.prepareStatement("INSERT INTO product(type, title, brand, price, summary,cond,Name,Email,num,city,imgpath) VALUES(?,?,?,?,?,?,?,?,?,?,?)");
 				st.setString(1,type);
 				st.setString(2,title);
-				
 				st.setString(3,brand);
-				
 				st.setString(4,price);
 				st.setString(5,summary);
 				st.setString(6,cond);
@@ -85,6 +83,7 @@ public class Dao {
 				st.setString(8,Email);
 				st.setString(9,num);
 				st.setString(10,city);
+				st.setString(11,imgpath);
 			
 				
 				int i=st.executeUpdate();

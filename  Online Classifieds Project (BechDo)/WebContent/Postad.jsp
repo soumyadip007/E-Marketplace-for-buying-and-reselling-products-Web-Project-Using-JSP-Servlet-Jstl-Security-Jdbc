@@ -177,7 +177,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										Please Choose Your Location</h4>
 								</div>
 								<div class="modal-body">
-									 <form class="form-horizontal" action="#" method="get">
+									 <form class="form-horizontal" action="#" method="get"  >
 										<div class="form-group">
 											<select id="basic2" class="show-tick form-control" multiple>
 												<optgroup label="Popular Cities">
@@ -187,7 +187,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 													<option>Kolkata</option>
 													<option>Chennai</option>
 													<option>Bangalore</option>
-													
+			
 												</optgroup>												
 													<optgroup label="West Bengal">
 														<option>Kolkata</option>
@@ -257,7 +257,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<h2 class="w3-head">Post an Ad</h2>
 			<div class="post-ad-form">
-				<form action="Post" method="get">
+				<form action="Post" method="get"    enctype="multipart/form-data">
 					<label>Select Category <span>*</span></label>
 					<select class=""   name="type">
 					  <option>Select Category</option>
@@ -313,7 +313,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<label>Photos for your ad :</label>	
 					<div class="photos-upload-view">
 					
-						<input type="file" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+						<input type="file" id="MAX_FILE_SIZE" name="file"  />
 
 					<!--<div>
 							<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
