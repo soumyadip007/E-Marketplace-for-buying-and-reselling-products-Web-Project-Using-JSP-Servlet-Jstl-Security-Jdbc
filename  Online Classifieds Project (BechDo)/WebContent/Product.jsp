@@ -13,7 +13,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Mobiles :: w3layouts</title>
+<title>BechDo a Classified ads Category </title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -278,8 +278,8 @@ product=(String)request.getAttribute("product");
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
 			<span class="agile-breadcrumbs">
-			<a href="index.html"><i class="fa fa-home home_1"></i></a> / 
-			<a href="categories.html">Categories</a> / 
+			<a href="Home.jsp"><i class="fa fa-home home_1"></i></a> / 
+			<a href="Catagory.jsp">Categories</a> / 
 			<span><%=product%></span></span>
 		</div>
 	</div>
@@ -615,10 +615,10 @@ product=(String)request.getAttribute("product");
 					</div>						
 				</div>	
 			</div>	
-			<div class="agileits-footer-bottom text-center">
+		<div class="agileits-footer-bottom text-center">
 			<div class="container">
 				<div class="w3-footer-logo">
-					<h1><a href="index.html"><span>Re</span>sale-v2</a></h1>
+					<h1><a href="index.html"><span>Bech</span>Do</a></h1>
 				</div>
 				<div class="w3-footer-social-icons">
 					<ul>
@@ -630,7 +630,7 @@ product=(String)request.getAttribute("product");
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+					<p> © 2019 BechDo All Rights Reserved | Design and Developed by  <a href=""> @Soumyadip</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

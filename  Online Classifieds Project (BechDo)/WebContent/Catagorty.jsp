@@ -9,7 +9,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Resale_v2 a Classified ads Category Flat Bootstrap Responsive Website Template | Categories :: w3layouts</title>
+<title>BechDo</title>
 <link rel="stylesheet" href="css/bootstrap.min.css"><!-- bootstrap-CSS -->
 <link rel="stylesheet" href="css/bootstrap-select.css"><!-- bootstrap-select-CSS -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /><!-- style.css -->
@@ -214,9 +214,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<h1><a href="Home.jsp"><span>Bech</span>Do</a></h1>
 				</div>
 				<div class="agileits_search">
-					<form action="Search" method="post">
-						<input name="SearchProuct" value="" type="text" placeholder="How can we help you today?"  />
-						<select id="agileinfo_search" name="Search" >
+					<form action="Search.jsp" method="">
+						<input name="Search" value="" type="text" placeholder="How can we help you today?"  />
+						<select id="agileinfo_search" name="" >
 							<option value="">All Categories</option>
 							<option value="Mobiles">Mobiles</option>
 							<option value="Electronics & Appliances">Electronics & Appliances</option>
@@ -627,10 +627,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>						
 				</div>	
 			</div>	
-			<div class="agileits-footer-bottom text-center">
+<div class="agileits-footer-bottom text-center">
 			<div class="container">
 				<div class="w3-footer-logo">
-					<h1><a href="index.html"><span>Re</span>sale-v2</a></h1>
+					<h1><a href="index.html"><span>Bech</span>Do</a></h1>
 				</div>
 				<div class="w3-footer-social-icons">
 					<ul>
@@ -642,7 +642,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+					<p> © 2019 BechDo All Rights Reserved | Design and Developed by  <a href=""> @Soumyadip</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

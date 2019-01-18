@@ -403,7 +403,7 @@ single=(String)request.getAttribute("single");
 			<div class="agileits-footer-bottom text-center">
 			<div class="container">
 				<div class="w3-footer-logo">
-					<h1><a href="index.html"><span>Re</span>sale-v2</a></h1>
+					<h1><a href="index.html"><span>Bech</span>Do</a></h1>
 				</div>
 				<div class="w3-footer-social-icons">
 					<ul>
@@ -415,7 +415,7 @@ single=(String)request.getAttribute("single");
 					</ul>
 				</div>
 				<div class="copyrights">
-					<p> © 2016 Resale. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
+					<p> © 2019 BechDo All Rights Reserved | Design and Developed by  <a href=""> @Soumyadip</a></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
