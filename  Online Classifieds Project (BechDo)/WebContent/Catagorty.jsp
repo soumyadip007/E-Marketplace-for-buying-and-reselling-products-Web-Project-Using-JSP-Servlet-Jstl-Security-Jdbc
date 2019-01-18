@@ -140,10 +140,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a href="Login.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Log In</a>
 					</li>
 					<%} else  {%>
+					
+				
+					
 					<li class="dropdown head-dpdn">
 						<a href="Profile.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><%=data %></a>
 					</li>
+					
+						<li class="dropdown head-dpdn">
+						<a href="Logout"><i class="fa fa-account" aria-hidden="true"></i>Logout</a>
+					</li>
+					
 					<%} %>
+				
 					<li class="dropdown head-dpdn">
 						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
 					</li>

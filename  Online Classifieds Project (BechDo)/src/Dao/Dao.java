@@ -72,7 +72,7 @@ public class Dao {
 		{
 			try{
 				Connection con=MyCon.dbcon();
-				PreparedStatement st=con.prepareStatement("INSERT INTO product(type, title, brand, price, summary,cond,Name,Email,num,city,imgpath) VALUES(?,?,?,?,?,?,?,?,?,?,?)");
+				PreparedStatement st=con.prepareStatement("INSERT INTO product(type, title, brand, price, summary,cond,Name,Email,num,city) VALUES(?,?,?,?,?,?,?,?,?,?)");
 				st.setString(1,type);
 				st.setString(2,title);
 				st.setString(3,brand);
@@ -83,7 +83,7 @@ public class Dao {
 				st.setString(8,Email);
 				st.setString(9,num);
 				st.setString(10,city);
-				st.setString(11,imgpath);
+			//	st.setString(11,imgpath);
 			
 				
 				int i=st.executeUpdate();

@@ -268,19 +268,14 @@ var elem=$('#container ul');
 	</header>
 	<!-- //header -->
 	<!-- breadcrumbs -->
-	<%!String product; %>
 
 
-<%
-product=(String)request.getAttribute("product");
-//product="mobile";
-%>
 	<div class="w3layouts-breadcrumbs text-center">
 		<div class="container">
 			<span class="agile-breadcrumbs">
 			<a href="index.html"><i class="fa fa-home home_1"></i></a> / 
 			<a href="categories.html">Categories</a> / 
-			<span><%=product%></span></span>
+			<span>Search</span></span>
 		</div>
 	</div>
 	<!-- //breadcrumbs -->
@@ -448,7 +443,8 @@ product=(String)request.getAttribute("product");
 									<a class="listview active"><i class="glyphicon glyphicon-th-list"></i></a>
 								</div>
 								
-
+<%!String product; %>
+<% product= request.getParameter("Search"); %>
 
 	
 <sql:setDataSource
@@ -459,7 +455,7 @@ product=(String)request.getAttribute("product");
     />
     
     <sql:query var="listUsers"   dataSource="${con}">
-        SELECT * FROM product where type='<%=product%>' order by rand();
+        SELECT * FROM product where type like '%<%=product%>%' or brand like '%<%=product%>%' or title like '%<%=product%>%'; 
     </sql:query>
      
 								<div class="clearfix"></div>

@@ -259,12 +259,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="post-ad-form">
 				<form action="Post" method="get"    enctype="multipart/form-data">
 					<label>Select Category <span>*</span></label>
-					<select class=""   name="type">
+					<select class="" required  name="type">
 					  <option>Select Category</option>
 					  <option>Mobile</option>
-					  <option>Electronics and Appliances</option>
-					  <option>Cars</option>
-					  <option>Bikes</option>
+					  <option value="Electronic">Electronics and Appliances</option>
+					  <option>Car</option>
+					  <option>Bike/option>
 					  <option>Furniture</option>
 					  <option>Pets</option>
 					  <option>Books, Sports and hobbies</option>
@@ -276,13 +276,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					
 					<div class="clearfix"></div>
 				<label>Select Condition <span>*</span></label>
-					<select class=""   name="cond">
+					<select class=""  required name="cond">
 					  <option>Select Condition</option>
 					 
-					  <option>Kolkata</option>
-					  <option>Delhi</option>
-					  <option>Mumbai</option>
-					    <option>Patna</option>
+					  <option>Excellent</option>
+					  <option>Good</option>
+					  <option>Average</option>
+					    <option>Bad</option>
 					</select>
 							
 					<div class="clearfix"></div>
@@ -290,22 +290,22 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 					
 					<label>Ad Title <span>*</span></label>
-					<input type="text" class="phone"  name="title" placeholder="Title">
+					<input type="text" class="phone" required name="title" placeholder="Title">
 					<div class="clearfix"></div>
 					
 					<label>Ad Description <span>*</span></label>
-					<textarea class="mess"   name="summary" placeholder="Write few lines about your product"></textarea>
+					<textarea class="mess"  required name="summary" placeholder="Write few lines about your product"></textarea>
 					
 					<div class="clearfix"></div>
 				
 					<label>Price <span>*</span></label>
-					<input type="text" class="Price"  name="price" placeholder="Price in INR">
+					<input type="text" class="Price" required  name="price" placeholder="Price in INR">
 					<div class="clearfix"></div>
 						
 						
 						
 					<label>Brand <span>*</span></label>
-					<input type="text" class="Price"  name="price1" placeholder="Brand
+					<input type="text" class="Price" required  name="price1" placeholder="Brand
 					">
 						
 					<div class="clearfix"></div>
@@ -359,7 +359,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<input type="text" class="name" value="${prod.name }"  placeholder="" name="name"  readonly>
 						<div class="clearfix"></div>
 						<label>Your Mobile No <span>*</span></label>
-						<input type="text" class="phone"  value="${prod.mobile }"  name="num"  placeholder="" >
+						<input type="text" required class="phone"  value="${prod.mobile }"  name="num"  placeholder="" >
 						<div class="clearfix"></div>
 						<label>Your Email Address<span>*</span></label>
 						<input type="text" class="email"  value="${prod.email }"  name="email"  placeholder="" readonly>

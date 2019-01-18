@@ -60,7 +60,7 @@ public class Post extends HttpServlet {
 		String city=request.getParameter("city");
 		String imgpath=null;
 		
-		
+	/*	
 		String filepath="F:\\Github\\E-Marketplace-for-buying-and-reselling-goods\\ Online Classifieds Project (BechDo)\\WebContent\\image"+File.separator+SAVE_DIR;
 		File directory=new File(filepath);
 		if(!directory.exists()){
@@ -73,7 +73,7 @@ public class Post extends HttpServlet {
 		part.write(imgpath);
 		System.out.println(imgpath);
 		
-		
+		*/
 		Dao obj=new Dao();
 		
 		

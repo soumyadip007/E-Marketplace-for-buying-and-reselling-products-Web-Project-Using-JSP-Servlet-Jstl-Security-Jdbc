@@ -236,9 +236,9 @@ var elem=$('#container ul');
 					<h1><a href="Home.jsp"><span>Bech</span>Do</a></h1>
 				</div>
 				<div class="agileits_search">
-					<form action="Search" method="post">
-						<input name="SearchProuct" value="" type="text" placeholder="How can we help you today?"  />
-						<select id="agileinfo_search" name="Search" >
+					<form action="Search.jsp" method="">
+						<input name="Search" value="" type="text" placeholder="How can we help you today?"  />
+						<select id="agileinfo_search" name="Searchcat" >
 							<option value="">All Categories</option>
 							<option value="Mobiles">Mobiles</option>
 							<option value="Electronics & Appliances">Electronics & Appliances</option>
