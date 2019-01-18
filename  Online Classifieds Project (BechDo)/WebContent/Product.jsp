@@ -132,7 +132,7 @@ var elem=$('#container ul');
 						
 						<a href="Product?p=pet"><i class="fa fa-fw fa-paw"></i><span>Pets</span></a>
 						
-						<a href="Product?p=book"><i class="fa fa-fw fa-book"></i><span>Books, Sports & Hobbies</span></a>
+						<a href="Product?p=book"><i class="fa fa-fw fa-book"></i><span>Book, Sports & Hobbies</span></a>
 						
 						<a href="Product?p=fashion"><i class="fa fa-fw fa-asterisk"></i><span>Fashion</span></a>
 						
