@@ -174,6 +174,10 @@ var elem=$('#container ul');
 					<li class="dropdown head-dpdn">
 						<a href="Profile.jsp" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i><%=data %></a>
 					</li>
+				
+					<li class="dropdown head-dpdn">
+						<a href="Logout" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i>Logout</a>
+					</li>
 					<%} %>
 					<li class="dropdown head-dpdn">
 						<a href="help.html"><i class="fa fa-question-circle" aria-hidden="true"></i> Help</a>
