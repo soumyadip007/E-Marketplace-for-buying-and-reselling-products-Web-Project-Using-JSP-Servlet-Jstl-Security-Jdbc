@@ -2,7 +2,7 @@
 # http://BechDo.cloudjiffy.net/index.html
 # Published at : https://soumyadip007.github.io/E-Marketplace-for-buying-and-reselling-products-Web-Project-Using-JSP-Servlet-Jstl-Security-Jdbc/.
 
-Images:
+# Images:
 
 <img src="./ Online Classifieds Project (BechDo)/image1/1.png" >
 <img src="./ Online Classifieds Project (BechDo)/image1/2.png" >
